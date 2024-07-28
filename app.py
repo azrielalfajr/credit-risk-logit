@@ -70,3 +70,7 @@ st.subheader("Tingkat Probabilitas:")
 with st.container(border=True):
     st.write(f"Probabilitas Tidak Default: {prediction_proba[0][0]*100:.2f}%")
     st.write(f"Probabilitas Default: {prediction_proba[0][1]*100:.2f}%")
+
+
+with st.container(border=True):
+    st.write('Proyek ini dibuat dengan model XGBoost dengan akurasi sebesar 93%')
